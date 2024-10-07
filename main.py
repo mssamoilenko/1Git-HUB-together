@@ -6,7 +6,7 @@ FILENAME = ['tasks.txt']
 # def save_task():
 # 	pass
 
-tasks = ['help mom', 'clean windows', 'drink water']
+# tasks = ['help mom', 'clean windows', 'drink water']
 
 def add_task(tasks: list, task: str): # list, str, ... - types of arguments for comfortable work
 	tasks.append(task)
