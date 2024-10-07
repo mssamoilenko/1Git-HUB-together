@@ -1,12 +1,10 @@
 FILENAME = ['tasks.txt']
 
-# def load_task():
-# 	pass
+def load_task():
+	pass
 
-# def save_task():
-# 	pass
-
-# tasks = ['help mom', 'clean windows', 'drink water']
+def save_task():
+	pass
 
 def add_task(tasks: list, task: str): # list, str, ... - types of arguments for comfortable work
 	tasks.append(task)
@@ -19,21 +17,6 @@ def mark_ready_task(tasks: list, indexOfMarkingTask: int):
 
 def delete_task():
 	pass
-
-# # test >>>
-
-# print(tasks)
-
-# add_task(tasks, input('new task: ')) 
-# print(tasks)
-
-# edit_task(tasks, int(input('index of task to edit: ')), input('new name of task: ')) # test
-# print(tasks)
-
-# mark_ready_task(tasks, int(input('index of task to mark as done: ')))
-# print(tasks)
-
-# # <<< test
 
 def main():
 	print('tasks:', tasks)
